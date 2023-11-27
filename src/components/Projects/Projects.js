@@ -32,16 +32,6 @@ function Projects() {
               demoLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Library Management System (In-Progress)"
-              description="I developed a Library Management Website using the MERN stack, with a notable feature of web socket integration. This website enables users to engage with the library team through chat, issue reporting, and feedback submission. The platform also maintains an up-to-date record of the library's book inventory, allowing users to check the availability of books."
-              ghLink="https://github.com/dhruvchandak30"
-              demoLink=""
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -50,7 +40,7 @@ function Projects() {
               title="LNMIIT College Website"
               description="I served as both a member of the development team and the team lead for our college website project, overseeing a 10-member team. My role involved coding, content organization, collaboration with faculty, and data collection. This experience enhanced my leadership and project management skills, while also allowing me to contribute hands-on as a developer."
               ghLink="https://github.com/dhruvchandak30/LNMIIT"
-              demoLink=""
+              demoLink="https://lnmiit-website.vercel.app/"
             />
           </Col>
 
@@ -84,6 +74,16 @@ function Projects() {
               description="I have also made a Travel Agency Website using vanila JS. It uses various concepts of HTML, CSS, JS."
               ghLink="https://github.com/dhruvchandak30/Travel-Agency"
               demoLink="https://jadoo-travelagency.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Library Management System (In-Progress)"
+              description="I developed a Library Management Website using the MERN stack, with a notable feature of web socket integration. This website enables users to engage with the library team through chat, issue reporting, and feedback submission. The platform also maintains an up-to-date record of the library's book inventory, allowing users to check the availability of books."
+              ghLink="https://github.com/dhruvchandak30"
+              demoLink=""
             />
           </Col>
         </Row>
