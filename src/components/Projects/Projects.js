@@ -9,6 +9,7 @@ import chatify from "../../Assets/Library.jpg";
 import suicide from "../../Assets/Travel.png";
 import bitsOfCode from "../../Assets/college.png";
 import fest from "../../Assets/fest.jpg";
+import Vivacity from "../../Assets/Vivacity.jpeg";
 
 function Projects() {
   return (
@@ -81,8 +82,17 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Library Management System (In-Progress)"
-              description="I developed a Library Management Website using the MERN stack, with a notable feature of web socket integration. This website enables users to engage with the library team through chat, issue reporting, and feedback submission. The platform also maintains an up-to-date record of the library's book inventory, allowing users to check the availability of books."
+              description="I am developing a Library Management Website using the MERN stack, with a notable feature of web socket integration. This website enables users to engage with the library team through chat, issue reporting, and feedback submission. The platform also maintains an up-to-date record of the library's book inventory, allowing users to check the availability of books."
               ghLink="https://github.com/dhruvchandak30"
+              demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Vivacity}
+              isBlog={false}
+              title="Cultural Fest Website (In-Progress)"
+              description="I am developing a the Cultural Fest Website of LNMIIT using the MERN stack. This website enables users to register for various events and competitions, and also provides information about the fest."
               demoLink=""
             />
           </Col>
