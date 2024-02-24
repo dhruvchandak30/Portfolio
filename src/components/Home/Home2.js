@@ -11,6 +11,7 @@ import {
 import cf from "../../Assets/cf.png";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiCodeforces, SiLeetcode } from "react-icons/si";
+import Github from "../About/Github";
 
 function Home2() {
   return (
@@ -53,6 +54,9 @@ function Home2() {
           {/* </Container> */}
         </Row>
         <Row>
+          <Github />
+        </Row>
+        <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -88,6 +92,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <SiCodeforces />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://twitter.com/dhruv5Dev"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">

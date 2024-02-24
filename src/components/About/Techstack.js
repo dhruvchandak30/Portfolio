@@ -16,8 +16,12 @@ import {
   SiSocketdotio,
   SiTailwindcss,
 } from "react-icons/si";
-import { SiFirebase, SiNextdotjs, SiPostgresql } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import {
+  SiFirebase,
+  SiNextdotjs,
+  SiPostgresql,
+  SiTypescript,
+} from "react-icons/si";
 
 function Techstack() {
   return (
@@ -26,10 +30,14 @@ function Techstack() {
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
+        <DiJava />
       </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -54,14 +62,18 @@ function Techstack() {
         <SiMysql />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSocketdotio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
     </Row>
   );

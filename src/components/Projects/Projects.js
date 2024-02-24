@@ -10,7 +10,8 @@ import suicide from "../../Assets/Travel.png";
 import bitsOfCode from "../../Assets/college.png";
 import fest from "../../Assets/fest.jpg";
 import Vivacity from "../../Assets/Vivacity.jpeg";
-
+import object from "../../Assets/object.jpg";
+import payment from "../../Assets/payment.jpg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -33,6 +34,18 @@ function Projects() {
               demoLink=""
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={payment}
+              isBlog={false}
+              title="Payment Portal/Application"
+              description="Developed a payments application allowing users to transfer money to others and add funds to their own wallets, ensuring transactional atomicity through DBMS.
+              Tech Stack: MERN Stack and TypeScript
+              Features: Money transfer between users, Wallet fund addition"
+              ghLink="https://github.com/dhruvchandak30/payment"
+              demoLink="https://payment-software.vercel.app/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -42,6 +55,16 @@ function Projects() {
               description="I served as both a member of the development team and the team lead for our college website project, overseeing a 10-member team. My role involved coding, content organization, collaboration with faculty, and data collection. This experience enhanced my leadership and project management skills, while also allowing me to contribute hands-on as a developer."
               ghLink="https://github.com/dhruvchandak30/LNMIIT"
               demoLink="https://lnmiit-website.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={object}
+              isBlog={false}
+              title="Intelligent Camera Decision-Making System using AI"
+              description="The Intelligent Camera Decision-Making System is designed to process video data, identify important events, and make informed decisions in real-time. It is equipped with features such as smart alerts, incident reporting, and approval-based camera coordination, traffic Management. The system aims to enhance surveillance capabilities and automate the response to suspicious activities. "
+              ghLink="https://github.com/dhruvchandak30/Techacks-4.0"
+              demoLink="https://youtu.be/HqXNhzFK4XA"
             />
           </Col>
 
@@ -66,7 +89,15 @@ function Projects() {
               demoLink="https://netflixemail-ab39c.web.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Vivacity}
+              isBlog={false}
+              title="Cultural Fest Website"
+              description="I am developed a the Cultural Fest Website of LNMIIT using the MERN stack. This website enables users to register for various events and competitions, and also provides information about the fest. In a span of just one week it gained around 40,000 hits"
+              demoLink="https://vivacity.live"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
@@ -87,15 +118,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Vivacity}
-              isBlog={false}
-              title="Cultural Fest Website (In-Progress)"
-              description="I am developing a the Cultural Fest Website of LNMIIT using the MERN stack. This website enables users to register for various events and competitions, and also provides information about the fest."
-              demoLink=""
-            />
-          </Col>
+     
         </Row>
       </Container>
     </Container>
