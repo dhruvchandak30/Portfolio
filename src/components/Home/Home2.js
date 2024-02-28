@@ -45,13 +45,13 @@ function Home2() {
           </Col>
         </Row>
         <Row>
-          {/* <Container> */}
-          <h1 className="project-heading">
-            Professional <strong className="purple">Skillset </strong>
-          </h1>
+          <Container>
+            <h1 className="project-heading">
+              Professional <strong className="purple">Skillset </strong>
+            </h1>
 
-          <Techstack />
-          {/* </Container> */}
+            <Techstack />
+          </Container>
         </Row>
         <Row>
           <Github />
