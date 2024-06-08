@@ -12,6 +12,7 @@ import fest from "../../Assets/fest.jpg";
 import Vivacity from "../../Assets/Vivacity.jpeg";
 import object from "../../Assets/object.jpg";
 import payment from "../../Assets/payment.jpg";
+import webrtc from "../../Assets/Projects/webrtc.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -36,6 +37,18 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={webrtc}
+              isBlog={false}
+              title="Real Time Video Communication"
+              description="Developed a Real Time Video Communication Website using WebRTC. A user can create room an invite friends to have a video call with them
+              Tech Stack: React, WebRTC, WebSockets and TypeScript
+              Features: Real Time communication, create rooms, Turn On/Off Camera, ScreenShare"
+              ghLink="https://github.com/dhruvchandak30/webrtc"
+              demoLink="https://webrtc-ts.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={payment}
               isBlog={false}
               title="Payment Portal/Application"
@@ -44,6 +57,16 @@ function Projects() {
               Features: Money transfer between users, Wallet fund addition"
               ghLink="https://github.com/dhruvchandak30/payment"
               demoLink="https://payment-software.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Library Management System"
+              description="I developed a Library Management Website using the MERN stack, with a notable feature of web socket integration. This website enables users to engage with the library team through chat, issue reporting, and feedback submission. The platform also maintains an up-to-date record of the library's book inventory, allowing users to check the availability of books."
+              ghLink="https://github.com/dhruvchandak30/bookfinder"
+              demoLink="https://bookfinderlibrary.vercel.app/"
             />
           </Col>
 
@@ -108,17 +131,6 @@ function Projects() {
               demoLink="https://jadoo-travelagency.netlify.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Library Management System (In-Progress)"
-              description="I am developing a Library Management Website using the MERN stack, with a notable feature of web socket integration. This website enables users to engage with the library team through chat, issue reporting, and feedback submission. The platform also maintains an up-to-date record of the library's book inventory, allowing users to check the availability of books."
-              ghLink="https://github.com/dhruvchandak30"
-              demoLink=""
-            />
-          </Col>
-     
         </Row>
       </Container>
     </Container>
