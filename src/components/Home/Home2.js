@@ -23,19 +23,24 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hello, I'm Dhruv Chandak, a second-year student at The LNM
-              Institute of Information Technology in Jaipur, pursuing Computer
-              Science Engineering. My passion for web development drives me to
-              spend a significant amount of time learning and experimenting with
-              new technology stacks. As a MERN Stack developer, I have hands-on
-              experience in building web applications with a focus on front-end
-              and back-end technologies. My commitment to the open-source
-              community led to my selection in Hacktoberfest 2023, where I
-              actively contributed to open-source projects. I pride myself on
-              being a fast learner, which has enabled me to quickly grasp new
-              concepts and technologies in the ever-evolving field of software
-              development. I am excited about the opportunity to bring my
-              skills, enthusiasm, and dedication to your software company
+              As a third-year Computer Science Engineering student, I possess a
+              robust skill set in both frontend and backend development, with
+              proficiency in languages like C, C++, JavaScript, and TypeScript.
+              My experience spans across working with frameworks such as React,
+              Next.js, and Node.js, and I have a strong grasp of data structures
+              and algorithms. I have honed my abilities in Unix/Linux
+              environments and am well-versed in tools like Git, GitHub, VS
+              Code, and Vim.<br></br> During my internships and various
+              open-source and freelance projects, I have contributed to
+              solutions that have had a significant impact, collaborating
+              effectively with teams and faculty members. My academic and
+              practical experiences are showcased through my portfolio and
+              GitHub repositories.<br></br> I am passionate about technology and
+              innovation, looking forward to applying my skills in areas like
+              mobile development, distributed systems, and machine learning.
+              With a commitment to continuous learning and excellence, I am
+              eager to contribute to and grow within a dynamic and innovative
+              organization.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
