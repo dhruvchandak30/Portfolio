@@ -30,17 +30,17 @@ function Home2() {
               Next.js, and Node.js, and I have a strong grasp of data structures
               and algorithms. I have honed my abilities in Unix/Linux
               environments and am well-versed in tools like Git, GitHub, VS
-              Code, and Vim.<br></br> During my internships and various
-              open-source and freelance projects, I have contributed to
-              solutions that have had a significant impact, collaborating
-              effectively with teams and faculty members. My academic and
-              practical experiences are showcased through my portfolio and
-              GitHub repositories.<br></br> I am passionate about technology and
-              innovation, looking forward to applying my skills in areas like
-              mobile development, distributed systems, and machine learning.
-              With a commitment to continuous learning and excellence, I am
-              eager to contribute to and grow within a dynamic and innovative
-              organization.
+              Code, and Vim.<br></br>
+              <br></br> During my internships and various open-source and
+              freelance projects, I have contributed to solutions that have had
+              a significant impact, collaborating effectively with teams and
+              faculty members. My academic and practical experiences are
+              showcased through my portfolio and GitHub repositories.<br></br>
+              <br></br> I am passionate about technology and innovation, looking
+              forward to applying my skills in areas like mobile development,
+              distributed systems, and machine learning. With a commitment to
+              continuous learning and excellence, I am eager to contribute to
+              and grow within a dynamic and innovative organization.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
